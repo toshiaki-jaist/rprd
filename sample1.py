@@ -1,5 +1,6 @@
 from z3 import *
 from road_gen import *
+
 model1 = Model()
 model1.num_model = 5
 model1.max_step = 2
