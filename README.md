@@ -30,4 +30,8 @@ append_lane ([("car1", 0, 0), ("car1", 1, 0), ...])
 set_init([("car1", 0), ("car2", 0)])
 add_ntrans(("car1", 0, "car1", 1))
 ```
-`append_box` adds boxes to the model. A box is represented as a pair of a string and integer which represent a car and box ID, respectively. `append_position` adds box positions to the model. A box position is represented as a tuple of a string, integer, and integer which represent a car, box ID, and a position, respectively. A lane is represented as an integer. `append_lane` gets a tuple of string, integer, integer which represent a car, a box, and a lane, respectively, and assign the car to the lane. 
+`append_box` adds boxes to the model. A box is represented as a pair of a string and integer which represent a car and box ID, respectively. 
+`append_position` adds box positions to the model. A box position is represented as a tuple of a string, integer, and integer which represent a car, box ID, and a position, respectively. 
+A lane is represented as an integer. `append_lane` gets a tuple of string, integer, integer which represent a car, a box, and a lane, respectively, and assign the car to the lane. 
+`set_init` defines inital boxes of cars.
+`add_ntrans` adds a normal transition of boxes to the model. The transition is represented as a pair of a source box and destination box. Note that each box is represented as a pair of a car and box ID. 
