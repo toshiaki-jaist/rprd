@@ -1,5 +1,6 @@
 #
-# Copyright (c) 2021 Toshiaki Aoki. All rights reserved.
+# Copyright (c) 2021 Toshiaki Aoki. 
+# This software is released under th MIT License. See LICENSE.
 #
 from z3 import *
 
