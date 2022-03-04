@@ -1,9 +1,9 @@
 # rprd
 ### NAME
-GRPRD: scenario Generator for Road Position Relation Diagram
+GCPD: scenario Generator for Car Position Diagram
 ### Overview
-RPRD is a diagram for modeling vehicle positions, which is the extenstion of UML activity diagram. RPRD allows us to represent a large
-number of scenarios as a compact model. GRPRD is a tool to generate such scenarios from a RPRD model based on the SAT/SMT solver Z3. 
+GCPD is a diagram for modeling vehicle positions, which is the extenstion of UML activity diagram. GCPD allows us to represent a large
+number of scenarios as a compact model. GRPRD is a tool to generate such scenarios from a GCPD model based on the SAT/SMT solver Z3. 
 ### Usage
 Installing Z3 and Z3py is required to run GRPRD. A RPRD model is described as a python program. Importing 'road_gen.py' in the program and running it generate scenarios.
 
