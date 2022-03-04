@@ -7,7 +7,7 @@ number of scenarios as a compact model. GRPRD is a tool to generate such scenari
 ### Usage
 Installing Z3 and Z3py is required to run GRPRD. A RPRD model is described as a python program. Importing 'road_gen.py' in the program and running it generate scenarios.
 
-Firstly, it is necessary to import z3py and GRPRD.
+Firstly, it is necessary to import z3py and GCPD.
 ```
 from z3 import *
 from road_gen import *
