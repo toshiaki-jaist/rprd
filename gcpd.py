@@ -364,7 +364,7 @@ def print_constraints():
 #nt:ntrans, ct:ctrans, net; netrans, st:strans
 #nm: NUM_MODEL, ms: MAX_STEP
 #def road_gen(c,p,l,ib,bx,nt,ct,net,st,nm,ms):
-def road_gen(m):
+def s_gen(m):
     init(m)
     add_pos(m)
     add_lane(m)
@@ -373,6 +373,14 @@ def road_gen(m):
 # for debug
 #    print_constraints()
     return (enum_ss(m))
+
+def s_count(m):
+    init(m)
+    add_pos(m)
+    add_lane(m)
+    add_init(m)
+    add_trans(m)
+    return (enum_count(m))
 
 #def add_constraints(c,p,l,ib,bx,nt,ct,net,st,ms):
 def add_constraints(m):
