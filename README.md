@@ -1,4 +1,4 @@
-# cprd
+# gcpd
 ### NAME
 GCPD: scenario Generator for Car Position Diagram
 ### Overview
