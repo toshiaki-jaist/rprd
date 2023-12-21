@@ -23,12 +23,12 @@ my_first_model.max_step = 2
 ```
 Model elements are added to the model instance. Names of the model elements are represented as strings. 
 ```
-set_car (["car1", "car2", ...])
-append_box ([("car1", 0), ("car2", 1), ...])
-append_position ([("car1", 0, 0), ("car2", 1, 1), ...])
-append_lane ([("car1", 0, 0), ("car1", 1, 0), ...])
-set_init([("car1", 0), ("car2", 0)])
-add_ntrans(("car1", 0, "car1", 1))
+my_first_model.set_car (["car1", "car2", ...])
+my_first_model.append_box ([("car1", 0), ("car2", 1), ...])
+my_first_model.append_position ([("car1", 0, 0), ("car2", 1, 1), ...])
+my_first_model.append_lane ([("car1", 0, 0), ("car1", 1, 0), ...])
+my_first_model.set_init([("car1", 0), ("car2", 0)])
+my_first_model.add_ntrans(("car1", 0, "car1", 1))
 ```
 `append_box` adds boxes to the model. A box is represented as a pair of a string and integer which represent a car and box ID, respectively. 
 `append_position` adds box positions to the model. A box position is represented as a tuple of a string, integer, and integer which represent a car, box ID, and a position, respectively. 
