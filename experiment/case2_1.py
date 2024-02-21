@@ -18,7 +18,7 @@ case21.append_ntrans ([("LCar", 0, "LCar", 1), ("LCar", 0, "LCar", 2), ("LCar", 
 case21.append_ntrans ([("EgoCar", 2, "EgoCar", 4)])
 case21.append_ntrans ([("RCar", 0, "RCar", 1), ("RCar", 2, "RCar", 3), ("RCar", 2, "RCar", 4)])
 case21.append_ctrans ([("EgoCar", 0, "EgoCar", 1, "RCar", 1), ("EgoCar", 4, "EgoCar", 6, "LCar", 3)])
-case21.append_netrans ([("EgoCar", 0, "EgoCar", 7, "RCar", 1), ("EgoCar", 4, "EgoCar", 5, "LCar", 3)])
+case21.append_netrans ([("EgoCar", 0, "EgoCar", 7, [("RCar", 1)]), ("EgoCar", 4, "EgoCar", 5, [("LCar", 3)])])
 case21.append_strans ([[("EgoCar", 1, "EgoCar", 2), ("RCar", 1, "RCar", 2)], [("EgoCar", 2, "EgoCar", 3), ("RCar", 2, "RCar", 5)]])
 
 if True:
