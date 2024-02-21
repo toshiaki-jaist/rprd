@@ -12,7 +12,7 @@ case11.append_lane([("LCar", 0, 0), ("LCar", 1, 0), ("LCar", 4, 0), ("LCar", 2, 
 case11.set_init([("LCar", 0), ("RCar", 0)])
 case11.append_ntrans([("RCar", 0, "RCar", 1), ("RCar", 2, "RCar", 3), ("RCar", 2, "RCar", 4)])
 case11.append_ctrans([("LCar", 0, "LCar", 1, "RCar", 1)])
-case11.append_netrans([("LCar", 0, "LCar", 4, "RCar", 1)])
+case11.append_netrans([("LCar", 0, "LCar", 4, [("RCar", 1)])])
 case11.append_strans ([[("LCar", 1, "LCar", 2), ("RCar", 1, "RCar", 2)], [("LCar", 2, "LCar", 3), ("RCar", 2, "RCar", 5)]])
 
 if True: 
