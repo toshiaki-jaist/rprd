@@ -24,12 +24,12 @@ case33.append_ntrans ([("RCar1", 0, "RCar1", 1), ("RCar1", 1, "RCar1", 2), ("RCa
 case33.append_ntrans ([("EgoCar", 0, "EgoCar", 1), ("EgoCar", 0, "EgoCar", 7)])
 case33.append_ntrans ([("RCar2", 0, "RCar2", 1),("RCar2", 0, "RCar2", 2), ("RCar2", 0, "RCar2", 3)])
 
-if True:
+if False:
     # count the number of collision scenarios
     add_constraints(case33)
     add_col(case33)
     print (s_count(case33))
-elif True:
+elif False:
     # count the number of all scenarios
     print (s_count(case33))
 else:
