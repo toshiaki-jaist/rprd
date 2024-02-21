@@ -19,9 +19,9 @@ case22.append_ntrans ([("RCar", 0, "RCar", 1), ("RCar", 1, "RCar", 2), ("RCar", 
 case22.append_ctrans ([("EgoCar", 0, "EgoCar", 1, "RCar", 1)])
 case22.append_ctrans ([("EgoCar", 2, "EgoCar", 4, "RCar", 4)])
 case22.append_ctrans ([("EgoCar", 4, "EgoCar", 5, "LCar", 2)])
-case22.append_netrans ([("EgoCar", 0, "EgoCar", 7, "RCar", 1)])
-case22.append_netrans ([("EgoCar", 2, "EgoCar", 3, "RCar", 4)])
-case22.append_netrans ( [("EgoCar", 4, "EgoCar", 6, "LCar", 2)])
+case22.append_netrans ([("EgoCar", 0, "EgoCar", 7, [("RCar", 1)])])
+case22.append_netrans ([("EgoCar", 2, "EgoCar", 3, [("RCar", 4)])])
+case22.append_netrans ( [("EgoCar", 4, "EgoCar", 6, [("LCar", 2)])])
 
 if True:
     # count the number of collision scenarios
