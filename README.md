@@ -12,3 +12,4 @@ The number of no collision scenarios: 12 (cutin_nocol.gif)
 The number of collision scenarios: 11 (cutin_col.gif)
 
 The number of collision scenarios that those after the collision are ignored: 3 (cutin_col_tm.gif)
+??? This seems strange. To be checked.
