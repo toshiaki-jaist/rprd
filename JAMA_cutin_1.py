@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw, ImageFont
 from gcpd_gif import *
 
 cutin = Model()
-cutin.num_model = 3
+cutin.num_model = 8
 cutin.max_step = 5
 cutin.set_car(["Ego", "Other"])
 for i in range(3):
@@ -37,10 +37,11 @@ vg.y_bup = 0
 vg.grid_x = 2
 vg.grid_y = 3
 
-add_constraints(cutin)
+#add_constraints(cutin)
+add_constraints_tm(cutin, lambda bx, t: ps_col("Ego", "Other", bx, t))
 #add_solver(Not(eval_col(cutin,  lambda c1, c2, bx, t: ps_col(c1, c2, bx, t))))
 add_solver(eval_col(cutin,  lambda c1, c2, bx, t: ps_col(c1, c2, bx, t)))
-add_constraints_tm(cutin, lambda bx, t: ps_col("Other", "Ego", bx, t))
+
 
 if True: 
     hss = enum_ss(cutin)
@@ -52,4 +53,4 @@ else:
 #total 23
 #no collision 12
 #collision 11
-#collision(tm) 3
+#collision(tm) 8
