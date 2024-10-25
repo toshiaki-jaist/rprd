@@ -1,0 +1,354 @@
+states:
+- timeStamp: 26.7000007629395
+  groundtruth_ego:
+    pose:
+      position:
+        x: -240.066162109375
+        y: -1.83652007579803
+        z: 16.9241561889648
+      rotation:
+        x: 359.825439453125
+        y: 79.5617065429688
+        z: 0.880689263343811
+    twist:
+      linear:
+        x: 0
+        y: 0
+        z: 0
+      angular:
+        x: 0
+        y: 0
+        z: -8.32237816439374E-08
+    acceleration:
+      linear:
+        x: 0
+        y: 0
+        z: 0
+      angular:
+        x: 0
+        y: -0.000426105747465044
+        z: -6.65790230414132E-06
+  groundtruth_NPCs:
+    - name: npc1
+      pose:
+        position:
+          x: -220.202499389648
+          y: -1.70498085021973
+          z: 17.5727577209473
+        rotation:
+          x: 359.772766113281
+          y: 79.5413208007813
+          z: 0.358362793922424
+      twist:
+        linear:
+          x: 0
+          y: 0
+          z: 0
+        angular:
+          x: 0
+          y: 0
+          z: 0
+      acceleration: 0
+      bounding_box: 
+  groundtruth_pedestrians:
+    - name: pedes
+      pose:
+        position:
+          x: -174
+          y: 0
+          z: 34
+        rotation:
+          x: 0
+          y: 0.99862539768219
+          z: 0
+      speed: 1.2
+      bounding_box: 
+  perception_objects:
+    - id:
+        - 198
+        - 72
+        - 248
+        - 153
+        - 57
+        - 79
+        - 204
+        - 78
+        - 8
+        - 200
+        - 33
+        - 112
+        - 26
+        - 236
+        - 21
+        - 121
+      existence_prob: 0.4433594
+      classification:
+        - label: 1
+          probability: 1
+      pose:
+        position:
+          x: -219.076599121094
+          y: -0.946568429470062
+          z: 17.8899211883545
+        rotation:
+          x: 0
+          y: 79.7100524902344
+          z: 0
+      twist:
+        linear:
+          x: -0.0366759603146266
+          y: 4.63314073703244E-06
+          z: 0
+        angular:
+          x: 0
+          y: 0
+          z: 4.57198083159014E-06
+      acceleration:
+        linear:
+          x: 0
+          y: 0
+          z: 0
+        angular:
+          x: 0
+          y: 0
+          z: 0
+      shape:
+        size:
+          x: 4.05350845307112
+          y: 1.90030132513493
+          z: 1.43280014023185
+        shape_type: box
+    - id:
+        - 226
+        - 245
+        - 150
+        - 80
+        - 224
+        - 1
+        - 166
+        - 178
+        - 115
+        - 53
+        - 66
+        - 162
+        - 227
+        - 177
+        - 136
+        - 253
+      existence_prob: 0
+      classification:
+        - label: 0
+          probability: 1
+      pose:
+        position:
+          x: -269.983276367188
+          y: -1.0962507724762
+          z: 21.5083980560303
+        rotation:
+          x: 359.783386230469
+          y: 79.5288543701172
+          z: 0.985472619533539
+      twist:
+        linear:
+          x: -1.60711038663342
+          y: -0.0169421696689397
+          z: 0
+        angular:
+          x: 0
+          y: 0
+          z: 0
+      acceleration:
+        linear:
+          x: 0
+          y: 0
+          z: 0
+        angular:
+          x: 0
+          y: 0
+          z: 0
+      shape: 
+    - id:
+        - 125
+        - 44
+        - 193
+        - 131
+        - 29
+        - 145
+        - 52
+        - 211
+        - 6
+        - 145
+        - 254
+        - 230
+        - 94
+        - 196
+        - 140
+        - 192
+      existence_prob: 0
+      classification:
+        - label: 0
+          probability: 1
+      pose:
+        position:
+          x: -274.055938720703
+          y: -0.999358355998993
+          z: 20.7760753631592
+        rotation:
+          x: 359.783386230469
+          y: 79.5288543701172
+          z: 0.985472619533539
+      twist:
+        linear:
+          x: -0.469583507713066
+          y: 0.0181447702759258
+          z: 0
+        angular:
+          x: 0
+          y: 0
+          z: 0
+      acceleration:
+        linear:
+          x: 0
+          y: 0
+          z: 0
+        angular:
+          x: 0
+          y: 0
+          z: 0
+      shape: 
+  boundingbox_perception_objects: 
+  plan_trajectory:
+- timeStamp: 26.7250003814697
+  groundtruth_ego:
+    pose:
+      position:
+        x: -240.066162109375
+        y: -1.83652067184448
+        z: 16.9241561889648
+      rotation:
+        x: 359.825439453125
+        y: 79.5617141723633
+        z: 0.880689203739166
+    twist:
+      linear:
+        x: 0
+        y: 0
+        z: 0
+      angular:
+        x: 0
+        y: 5.32632202521199E-06
+        z: -4.16118908219687E-08
+    acceleration:
+      linear:
+        x: 0
+        y: 0
+        z: 0
+      angular:
+        x: 0
+        y: 0.000213052873732522
+        z: 1.66447557603533E-06
+  groundtruth_NPCs:
+    - name: npc1
+      pose:
+        position:
+          x: -220.201263427734
+          y: -1.70517253875732
+          z: 17.5729827880859
+        rotation:
+          x: 359.775390625
+          y: 79.5413208007813
+          z: 0.35478201508522
+      twist:
+        linear:
+          x: 0.0244140625
+          y: -1.9073486328125E-05
+          z: 0.0045013427734375
+        angular:
+          x: 0
+          y: 0.00030517578125
+          z: 0
+      acceleration: 0.9930117
+      bounding_box: 
+  groundtruth_pedestrians:
+    - name: pedes
+      pose:
+        position:
+          x: -174
+          y: 0
+          z: 34
+        rotation:
+          x: 0
+          y: 0.99862539768219
+          z: 0
+      speed: 1.2
+      bounding_box: 
+  perception_objects: 
+  boundingbox_perception_objects: 
+  plan_trajectory: 
+- timeStamp: 26.75
+  groundtruth_ego:
+    pose:
+      position:
+        x: -240.066162109375
+        y: -1.83652150630951
+        z: 16.9241561889648
+      rotation:
+        x: 359.825439453125
+        y: 79.5617218017578
+        z: 0.880689442157745
+    twist:
+      linear:
+        x: 0
+        y: 0
+        z: 0
+      angular:
+        x: 0
+        y: 5.32632202521199E-06
+        z: 1.66447563287875E-07
+    acceleration:
+      linear:
+        x: 0
+        y: 0
+        z: 0
+      angular:
+        x: 0
+        y: 0
+        z: 8.32237765280297E-06
+  groundtruth_NPCs:
+    - name: npc1
+      pose:
+        position:
+          x: -220.199417114258
+          y: -1.70531511306763
+          z: 17.5733242034912
+        rotation:
+          x: 359.778778076172
+          y: 79.5413208007813
+          z: 0.348569273948669
+      twist:
+        linear:
+          x: 0.0494384765625
+          y: -0.00766754150390625
+          z: 0.009002685546875
+        angular:
+          x: 0
+          y: 0
+          z: 0
+      acceleration: 1.015824
+      bounding_box: 
+  groundtruth_pedestrians:
+    - name: pedes
+      pose:
+        position:
+          x: -174
+          y: 0
+          z: 34
+        rotation:
+          x: 0
+          y: 0.99862539768219
+          z: 0
+      speed: 1.2
+      bounding_box: 
+  perception_objects: 
+  boundingbox_perception_objects: 
+  plan_trajectory: 
